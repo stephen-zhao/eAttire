@@ -1,2 +1,1 @@
 # eAttire
-Online clothes manager

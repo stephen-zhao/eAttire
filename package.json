@@ -1,0 +1,30 @@
+{
+  "name": "eAttire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "connect-flash": "^0.1.1",
+    "express": "^4.13.3",
+    "express-session": "^1.12.0",
+    "mongoose": "^4.2.2",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephen-zhao/eAttire.git"
+  },
+  "author": "Stephen Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephen-zhao/eAttire/issues"
+  },
+  "homepage": "https://github.com/stephen-zhao/eAttire#readme"
+}
