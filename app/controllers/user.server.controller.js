@@ -21,6 +21,7 @@ var getErrorMessage = function(err) {
     }
 
     return message;
+};
 
 exports.renderLogin = function(req, res, next) {
     if (!req.user) {
@@ -145,6 +146,6 @@ exports.delete = function(req, res, next) {
         else {
             res.json(req.user);
         }
-    })
+    });
 };
 
