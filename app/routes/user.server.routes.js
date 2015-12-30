@@ -11,4 +11,19 @@ module.exports = function(app) {
     	.delete(users.delete);
 
     app.param('userId', users.getUserByID);
+
+    app.route('/register')
+    	.get(users.renderRegister)
+    	.post(users.register);
+
+    app.route('/login')
+    	.get(users.renderLogin)
+    	.post(passport.authenticate('local', {
+    		successRedirect: '/',
+    		failureRedirect: '/login',
+    		failureFlash: true
+    	}));
+
+    app.route('/logout')
+    	.get(users.logout);
 };
