@@ -8,7 +8,7 @@ var config = require('./config'),
 module.exports = function() {
 	var app = express();
 
-	app.set('views', './app/views');
+	app.set('views', './app');
 	app.set('view engine', 'ejs');
 
 	app.use(bodyParser.urlencoded({
@@ -28,8 +28,8 @@ module.exports = function() {
 	app.use(passport.session());
 
 	// TODO: require(server.routes)
-	require('../app/routes/index.server.routes.js')(app);
-	require('../app/routes/user.server.routes.js')(app);
+	require('../app/index/index.server.routes.js')(app);
+	require('../app/user/user.server.routes.js')(app);
 
 	app.use(express.static('./public'));
 

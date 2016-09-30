@@ -5,7 +5,7 @@ module.exports = function() {
 	var db = mongoose.connect(config.db, {user: config.dbUser, pass: config.dbPass});
 
 	// TODO: Add require(app.models)
-	require('../app/models/user.server.model');
+	require('../app/user/user.server.model');
 
 	return db;
 };

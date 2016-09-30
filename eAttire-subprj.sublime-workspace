@@ -16,43 +16,19 @@
 			}
 		},
 		{
-			"file": "app/models/user.server.model.js",
+			"file": "tsconfig.json",
 			"settings":
 			{
-				"buffer_size": 1431,
-				"line_ending": "Windows"
+				"buffer_size": 296,
+				"line_ending": "Windows",
+				"name": "config.json"
 			}
 		},
 		{
 			"file": "public/app/index.html",
 			"settings":
 			{
-				"buffer_size": 9635,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/css/dashboard.css",
-			"settings":
-			{
-				"buffer_size": 1556,
-				"line_ending": "Windows",
-				"name": "/*"
-			}
-		},
-		{
-			"file": "app/views/login.ejs",
-			"settings":
-			{
-				"buffer_size": 1312,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/user.server.controller.js",
-			"settings":
-			{
-				"buffer_size": 3143,
+				"buffer_size": 9251,
 				"line_ending": "Windows"
 			}
 		},
@@ -60,39 +36,79 @@
 			"file": "config/express.js",
 			"settings":
 			{
-				"buffer_size": 806,
+				"buffer_size": 797,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/controllers/index.server.controller.js",
+			"file": "config/mongoose.js",
 			"settings":
 			{
-				"buffer_size": 159,
+				"buffer_size": 275,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/index.ejs",
+			"file": "config/passport.js",
 			"settings":
 			{
-				"buffer_size": 303,
+				"buffer_size": 449,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/routes/index.server.routes.js",
+			"file": "app/index/index.server.controller.js",
 			"settings":
 			{
-				"buffer_size": 141,
+				"buffer_size": 164,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/register.ejs",
+			"file": "app/user/user.server.controller.js",
 			"settings":
 			{
-				"buffer_size": 1633,
+				"buffer_size": 3448,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/user/user.server.model.js",
+			"settings":
+			{
+				"buffer_size": 1498,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/strategies/local.js",
+			"settings":
+			{
+				"buffer_size": 593,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/user/user.server.routes.js",
+			"settings":
+			{
+				"buffer_size": 673,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/user/login.ejs",
+			"settings":
+			{
+				"buffer_size": 1312,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/index/index.server.routes.js",
+			"settings":
+			{
+				"buffer_size": 121,
 				"line_ending": "Windows"
 			}
 		},
@@ -108,16 +124,8 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 766,
+				"buffer_size": 1003,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes/user.server.routes.js",
-			"settings":
-			{
-				"buffer_size": 704,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -136,10 +144,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "html",
+		"height": 229.0,
+		"last_filter": "set syntax: json",
 		"selected_items":
 		[
+			[
+				"set syntax: json",
+				"Set Syntax: JSON"
+			],
 			[
 				"html",
 				"HTML: Encode Special Characters"
@@ -161,15 +173,11 @@
 				"Set Syntax: LICENSE"
 			],
 			[
-				"set syntax: json",
-				"Set Syntax: JSON"
-			],
-			[
 				"package",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 494.0
+		"width": 382.0
 	},
 	"console":
 	{
@@ -191,18 +199,27 @@
 	"expanded_folders":
 	[
 		"/D/projects/eAttire",
-		"/D/projects/eAttire/app/controllers",
-		"/D/projects/eAttire/app/models",
-		"/D/projects/eAttire/app/routes",
-		"/D/projects/eAttire/app/views",
+		"/D/projects/eAttire/app",
+		"/D/projects/eAttire/app/index",
+		"/D/projects/eAttire/app/user",
 		"/D/projects/eAttire/config",
 		"/D/projects/eAttire/config/env",
-		"/D/projects/eAttire/public",
-		"/D/projects/eAttire/public/app",
-		"/D/projects/eAttire/public/js/bootstrap"
+		"/D/projects/eAttire/config/strategies"
 	],
 	"file_history":
 	[
+		"/D/projects/zhaostephen/server.js",
+		"/G/bSoftware 2015-09-02/The Sims 4 - Get to Work.rar",
+		"/D/projects/eAttire/app/routes/user.server.routes.js",
+		"/D/projects/eAttire/app/views/register.ejs",
+		"/D/projects/eAttire/app/routes/index.server.routes.js",
+		"/D/projects/eAttire/app/views/index.ejs",
+		"/D/projects/eAttire/app/controllers/user.server.controller.js",
+		"/D/projects/eAttire/app/views/login.ejs",
+		"/D/projects/eAttire/app/controllers/index.server.controller.js",
+		"/D/projects/eAttire/public/css/dashboard.css",
+		"/D/projects/eAttire/app/models/user.server.model.js",
+		"/D/projects/SZXT77_modpack/develop/part-xvm/res_mods/configs/xvm/szxt77_xvm_config/statisticForm.xc",
 		"/D/projects/eAttire/.bowerrc",
 		"/D/projects/eAttire/public/index.html",
 		"/D/projects/zhaostephen/.gitignore",
@@ -316,6 +333,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Register",
 			"field",
 			"16",
 			"15",
@@ -339,7 +357,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -369,9 +387,50 @@
 								"current_ext": ".js",
 								"current_syntax": "JavaScript/JavaScript",
 								"enabled": false,
-								"last_updated": 1451413233.89
+								"last_updated": 1452191116.87
 							},
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tsconfig.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"auto_name": "config.json",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".json",
+								"current_syntax": "JavaScript/JSON",
+								"enabled": false,
+								"last_updated": 1452091100.68
+							},
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -381,20 +440,95 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/models/user.server.model.js",
+					"buffer": 2,
+					"file": "public/app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1431,
+						"buffer_size": 9251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								391,
-								391
+								1028,
+								1028
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsl",
+									"hex_compressed",
+									"hsla",
+									"webcolors",
+									"hex",
+									"rgba",
+									"rgb"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".html",
+								"current_syntax": "HTML/HTML",
+								"enabled": true,
+								"last_updated": 1452191116.87,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/express.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 797,
+						"regions":
+						{
+							"mark":
+							{
+								"flags": 144,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										291,
+										264
+									]
+								],
+								"scope": "mark"
+							}
+						},
+						"selection":
+						[
+							[
+								548,
+								556
 							]
 						],
 						"settings":
@@ -407,7 +541,280 @@
 								"current_ext": ".js",
 								"current_syntax": "JavaScript/JavaScript",
 								"enabled": false,
-								"last_updated": 1451674198.78
+								"last_updated": 1452191116.87
+							},
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/mongoose.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1452191116.87
+							},
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "config/passport.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1452191116.87
+							},
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/index/index.server.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1452191116.87
+							},
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/user/user.server.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1325,
+								1325
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1453745800.05
+							},
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1012.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/user/user.server.model.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1453227546.68
+							},
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 88.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "config/strategies/local.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1452191116.87
+							},
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/user/user.server.routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 673,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								603,
+								603
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1453227546.68
 							},
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
@@ -421,136 +828,9 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "public/app/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9635,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								562,
-								562
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"hex",
-									"webcolors",
-									"hsla",
-									"hex_compressed",
-									"hsl",
-									"rgb",
-									"rgba"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".html",
-								"current_syntax": "HTML/HTML",
-								"enabled": true,
-								"last_updated": 1451674198.78,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "public/css/dashboard.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1556,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1556,
-								1556
-							]
-						],
-						"settings":
-						{
-							"auto_name": "/*",
-							"color_helper.file_palette":
-							[
-								"#428bcaff",
-								"#eeeeeeff",
-								"#f5f5f5ff",
-								"#ffffffff"
-							],
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"hex",
-									"webcolors",
-									"hsla",
-									"hex_compressed",
-									"hsl",
-									"rgb",
-									"rgba"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".css",
-								"current_syntax": "CSS/CSS",
-								"enabled": true,
-								"last_updated": 1451674198.78,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/login.ejs",
-					"semi_transient": false,
+					"buffer": 11,
+					"file": "app/user/login.ejs",
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 1312,
@@ -560,8 +840,8 @@
 						"selection":
 						[
 							[
-								80,
-								161
+								0,
+								0
 							]
 						],
 						"settings":
@@ -573,19 +853,19 @@
 							{
 								"allowed_colors":
 								[
-									"hex",
-									"webcolors",
-									"hsla",
-									"hex_compressed",
 									"hsl",
-									"rgb",
-									"rgba"
+									"hex_compressed",
+									"hsla",
+									"webcolors",
+									"hex",
+									"rgba",
+									"rgb"
 								],
 								"compress_hex_output": true,
 								"current_ext": ".ejs",
 								"current_syntax": "HTML/HTML",
 								"enabled": true,
-								"last_updated": 1451674198.78,
+								"last_updated": 1452191116.87,
 								"scan_completion_scopes":
 								[
 								],
@@ -603,27 +883,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 138.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/controllers/user.server.controller.js",
+					"buffer": 12,
+					"file": "app/index/index.server.routes.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3143,
+						"buffer_size": 121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								50
+								114,
+								114
 							]
 						],
 						"settings":
@@ -636,150 +916,9 @@
 								"current_ext": ".js",
 								"current_syntax": "JavaScript/JavaScript",
 								"enabled": false,
-								"last_updated": 1451413233.89
-							},
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 966.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "config/express.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 806,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								737,
-								737
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1451413233.89
-							},
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 278.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/controllers/index.server.controller.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 159,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								149,
-								149
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1451413233.89
+								"last_updated": 1452191116.87
 							},
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/views/index.ejs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 303,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								287,
-								287
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"hsl",
-									"webcolors",
-									"rgba",
-									"hsla",
-									"hex_compressed",
-									"rgb",
-									"hex"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".ejs",
-								"current_syntax": "HTML/HTML",
-								"enabled": true,
-								"last_updated": 1451413233.89,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
-							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -789,107 +928,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "app/routes/index.server.routes.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 141,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								141,
-								141
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1451413233.89
-							},
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/views/register.ejs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1633,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								429,
-								429
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"hsl",
-									"webcolors",
-									"rgba",
-									"hsla",
-									"hex_compressed",
-									"rgb",
-									"hex"
-								],
-								"compress_hex_output": true,
-								"current_ext": null,
-								"current_syntax": "HTML/HTML",
-								"enabled": true,
-								"last_updated": 1451413233.89,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 138.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "config/env/development.js",
 					"semi_transient": false,
 					"settings":
@@ -915,7 +954,7 @@
 								"current_ext": ".js",
 								"current_syntax": "JavaScript/JavaScript",
 								"enabled": false,
-								"last_updated": 1451674198.78
+								"last_updated": 1452191116.87
 							},
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
@@ -924,24 +963,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 766,
+						"buffer_size": 1003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								501,
-								501
+								383,
+								383
 							]
 						],
 						"settings":
@@ -954,7 +993,7 @@
 								"current_ext": ".json",
 								"current_syntax": "Materialize/Langs/npm JSON",
 								"enabled": false,
-								"last_updated": 1451674198.78
+								"last_updated": 1452091100.68
 							},
 							"syntax": "Packages/Materialize/Langs/npm JSON.tmLanguage",
 							"tab_size": 2,
@@ -964,49 +1003,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "app/routes/user.server.routes.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 704,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								456,
-								456
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1451413233.89
-							},
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
@@ -1040,7 +1041,7 @@
 						"translation.y": 1313.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 15,
 					"type": "text"
 				}
 			]
